@@ -75,13 +75,13 @@
     .whatsapp-float:hover .whatsapp-tooltip {
       opacity: 1;
       visibility: visible;
-	/* Make scroll-to-top button completely invisible */
+    }
+    /* Make scroll-to-top button completely invisible */
     .scroll-top {
       display: none;
       visibility: hidden;
       opacity: 0;
       pointer-events: none;	
-		
     }
   </style>
 </head>
@@ -92,9 +92,9 @@
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-    <img src="assets/img/benitoslogo.png" alt="Benitos @ Grills" class="logo-image">
-    <span>&nbsp;</span>
-</a>
+        <img src="assets/img/benitoslogo.png" alt="Benitos @ Grills" class="logo-image">
+        <span>&nbsp;</span>
+      </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -233,106 +233,200 @@
       <div class="container">
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-burgers">
-              <h4>Burgers</h4>
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-bentos">
+              <h4>Benitos & Grills</h4>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-chicken">
-              <h4>Meat</h4>
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-kotas">
+              <h4>Kotas</h4>
             </a>
           </li>
-          
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-sides">
-              <h4>Sides</h4>
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-meals">
+              <h4>Meals</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-extras">
+              <h4>Extras</h4>
             </a>
           </li>
         </ul>
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-          <!-- Burgers Menu -->
-          <div class="tab-pane fade active show" id="menu-burgers">
+          <!-- Bentos & Grills Menu -->
+          <div class="tab-pane fade active show" id="menu-bentos">
+            <div class="tab-header text-center">
+              <h3>Bentos & Grills Specials</h3>
+              <p>All items served with our signature flavors</p>
+            </div>
+            <div class="row gy-5">
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota1.png" class="menu-img img-fluid" alt="7de Laan">
+                <h4>7de Laan</h4>
+                <p class="ingredients">Chips + Atchaar + Polony</p>
+                <p class="price">R15.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota2.png" class="menu-img img-fluid" alt="Skeem Saam">
+                <h4>Skeem Saam</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Half Vienna</p>
+                <p class="price">R20.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota3.png" class="menu-img img-fluid" alt="Rhythm City">
+                <h4>Rhythm City</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Vienna</p>
+                <p class="price">R24.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/chicken-burger.jpg" class="menu-img img-fluid" alt="Scandal">
+                <h4>Scandal</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Vienna + Cheese</p>
+                <p class="price">R26.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/peri-peri.jpg" class="menu-img img-fluid" alt="Gomora">
+                <h4>Gomora</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Half Russian</p>
+                <p class="price">R25.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/chicken-wings.jpg" class="menu-img img-fluid" alt="Durban Gen">
+                <h4>Durban Gen</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Russian</p>
+                <p class="price">R35.00</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Kotas Menu -->
+          <div class="tab-pane fade" id="menu-kotas">
             <div class="tab-header text-center">
               <h3>Signature Kotas</h3>
-              <p>All kotas served with fries and signature sauce</p>
+              <p>Loaded with flavor and value</p>
             </div>
             <div class="row gy-5">
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/kota1.png" class="menu-img img-fluid" alt="Benitos Classic Burger">
-                <h4>Benitos Classic</h4>
-                <p class="ingredients">kota ingredients</p>
-                <p class="price">R89</p>
+                <img src="assets/img/menu/kota1.png" class="menu-img img-fluid" alt="House of Zwide">
+                <h4>House of Zwide</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Russian + Vienna</p>
+                <p class="price">R40.00</p>
               </div>
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/kota2.png" class="menu-img img-fluid" alt="BBQ Bacon Burger">
-                <h4>BBQ Bacon</h4>
-                <p class="ingredients">kota ingredients</p>
-                <p class="price">R99</p>
+                <img src="assets/img/menu/kota2.png" class="menu-img img-fluid" alt="Zone 14">
+                <h4>Zone 14</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Russian + Vienna + Cheese</p>
+                <p class="price">R43.00</p>
               </div>
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/kota3.png" class="menu-img img-fluid" alt="Chilli Cheese Burger">
-                <h4>Chilli Cheese</h4>
-                <p class="ingredients">kota ingredients</p>
-                <p class="price">R95</p>
+                <img src="assets/img/menu/kota3.png" class="menu-img img-fluid" alt="The River">
+                <h4>The River</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Russian + B/Patty</p>
+                <p class="price">R48.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/chicken-burger.jpg" class="menu-img img-fluid" alt="Isibaya">
+                <h4>Isibaya</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Russian + B/Patty + Cheese</p>
+                <p class="price">R55.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/peri-peri.jpg" class="menu-img img-fluid" alt="Big Join">
+                <h4>Big Join</h4>
+                <p class="ingredients">Chips + Atchaar + Polony + Full Russian + Vienna + B/Patty + Cheese</p>
+                <p class="price">R60.00</p>
               </div>
             </div>
           </div>
           
-          <!-- Chicken Menu -->
-          <div class="tab-pane fade" id="menu-chicken">
+          <!-- Meals Menu -->
+          <div class="tab-pane fade" id="menu-meals">
             <div class="tab-header text-center">
-              <h3>Meat Specialties</h3>
-              <p>Meat flame-grilled to perfection</p>
+              <h3>Hearty Meals</h3>
+              <p>Satisfying options for every appetite</p>
             </div>
             <div class="row gy-5">
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/chicken-burger.jpg" class="menu-img img-fluid" alt="Chicken Burger">
-                <h4>Classic Chicken</h4>
-                <p class="ingredients">classic chicken</p>
-                <p class="price">R85</p>
+                <img src="assets/img/menu/chicken-wings.jpg" class="menu-img img-fluid" alt="Full Chicken">
+                <h4>Full Chicken & Chips (Small)</h4>
+                <p class="price">R225.00</p>
               </div>
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/peri-peri.jpg" class="menu-img img-fluid" alt="Peri-Peri Chicken">
-                <h4>Beef</h4>
-                <p class="ingredients">classic beef</p>
-                <p class="price">R95</p>
+                <img src="assets/img/menu/peri-peri.jpg" class="menu-img img-fluid" alt="Full Chicken Large">
+                <h4>Full Chicken & Large Chips</h4>
+                <p class="price">R135.00</p>
               </div>
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/chicken-wings.jpg" class="menu-img img-fluid" alt="Chicken Wings">
-                <h4>Ribs-Grilled Ribs</h4>
-                <p class="ingredients">classic ribs</p>
-                <p class="price">R75</p>
+                <img src="assets/img/menu/chicken-burger.jpg" class="menu-img img-fluid" alt="Steak">
+                <h4>Steak and Chips</h4>
+                <p class="price">R75.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota1.png" class="menu-img img-fluid" alt="Steak Pap">
+                <h4>Steak and Chips with Pap</h4>
+                <p class="price">R85.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota2.png" class="menu-img img-fluid" alt="Hotdog">
+                <h4>Hotdog and Chips</h4>
+                <p class="price">R40.00</p>
               </div>
             </div>
           </div>
           
-          
-          
-          <!-- Sides Menu -->
-          <div class="tab-pane fade" id="menu-sides">
+          <!-- Extras Menu -->
+          <div class="tab-pane fade" id="menu-extras">
             <div class="tab-header text-center">
-              <h3>Sides & Extras</h3>
-              <p>The perfect accompaniments</p>
+              <h3>Extras & Add-ons</h3>
+              <p>Customize your meal</p>
             </div>
             <div class="row gy-5">
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/fries.jpg" class="menu-img img-fluid" alt="Hand-cut Fries">
-                <h4>Hand-cut Fries</h4>
-                <p class="ingredients">With sea salt and rosemary</p>
-                <p class="price">R35</p>
+                <img src="assets/img/menu/fries.jpg" class="menu-img img-fluid" alt="Chips">
+                <h4>Chips</h4>
+                <p class="price">R8.00</p>
               </div>
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/onion-rings.jpg" class="menu-img img-fluid" alt="Onion Rings">
-                <h4>Crispy Onion Rings</h4>
-                <p class="ingredients">Beer-battered and golden</p>
-                <p class="price">R40</p>
+                <img src="assets/img/menu/onion-rings.jpg" class="menu-img img-fluid" alt="Vienna">
+                <h4>Vienna</h4>
+                <p class="price">R8.00</p>
               </div>
               <div class="col-lg-4 menu-item">
-                <img src="assets/img/menu/salad.jpg" class="menu-img img-fluid" alt="House Salad">
-                <h4>House Salad</h4>
-                <p class="ingredients">Seasonal greens with dressing</p>
-                <p class="price">R45</p>
+                <img src="assets/img/menu/salad.jpg" class="menu-img img-fluid" alt="Russian">
+                <h4>Russian</h4>
+                <p class="price">R15.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota1.png" class="menu-img img-fluid" alt="Cheese">
+                <h4>Cheese</h4>
+                <p class="price">R4.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota2.png" class="menu-img img-fluid" alt="Egg">
+                <h4>Egg</h4>
+                <p class="price">R4.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/kota3.png" class="menu-img img-fluid" alt="Burger Patty">
+                <h4>B/Patty</h4>
+                <p class="price">R15.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/chicken-burger.jpg" class="menu-img img-fluid" alt="Small Chips">
+                <h4>Small Chips</h4>
+                <p class="price">R20.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/peri-peri.jpg" class="menu-img img-fluid" alt="Medium Chips">
+                <h4>Medium Chips</h4>
+                <p class="price">R25.00</p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <img src="assets/img/menu/chicken-wings.jpg" class="menu-img img-fluid" alt="Large Chips">
+                <h4>Large Chips</h4>
+                <p class="price">R30.00</p>
               </div>
             </div>
           </div>
